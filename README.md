@@ -2,13 +2,13 @@
 
 ### What is AboutCode
 
-AboutCode is a suite of tools to uncover data ... about software and code:
+AboutCode is a suite of tools to get crucial information  about software and code:
 
  - Where does it come from?
  - What is its license?
- - Is it secure, maintained, well coded?
+ - Is it secure, well maintained, well written?
 
-These are important questions when there are millions of free and open source software components available on the web.
+This information is critical when there is a plethora of free and open source software components available on the web.
 
 ### Documentation Build Status
 
@@ -28,13 +28,13 @@ AboutCode Documentation Group Email Addresses:
 - Unsubscribe: AboutCode+unsubscribe@groups.io
 - Group Owner: AboutCode+owner@groups.io
 
-If you want to get in touch with the team with issues other than documentation, head to the gitter channel [here](https://gitter.im/aboutcode-org/discuss).
+If you want to get in touch with the team for issues other than documentation, head over to the gitter channel [here](https://gitter.im/aboutcode-org/discuss).
 
 ### Projects
 
 Each AboutCode project has its own repository:
 
-- **[ScanCode Toolkit](https://github.com/nexB/scancode-toolkit)**: This is a set of code scanning tools to detect the origin and license of code and dependencies. ScanCode now uses a plug-in architecture to run a series of scan-related tools in one process flow. This is the most popular projects and is used by 100's of software teams. https://github.com/nexB/scancode-toolkit . The lead maintainer is @pombredanne
+- **[ScanCode Toolkit](https://github.com/nexB/scancode-toolkit)**: This is a set of code scanning tools to detect the origin and license of code and dependencies. ScanCode now uses a plug-in architecture to run a series of scan-related tools in one process flow. This is the most popular projects and is used by 100s of software teams. https://github.com/nexB/scancode-toolkit . The lead maintainer is @pombredanne
 
 - **[Scancode Workbench](https://github.com/nexB/scancode-workbench)** 
 (formerly AboutCode Manager) This is a desktop application (based on Electron) to review the results of a scan and document your conclusions about the origin and license of software components and packages. https://github.com/nexB/aboutcode-manager . The lead maintainer is @majurg
@@ -45,9 +45,9 @@ Each AboutCode project has its own repository:
 
 - **[Conan](https://github.com/nexB/conan)**: stands for "CONtainer ANalysis" and is a tool to analyze the structure and provenance of software components in Docker images using static analysis. https://github.com/nexB/conan Maintained by @pombredanne
 
-- **[license-expression](https://github.com/nexB/license-expression/)**: this is a library to parse, analyze, compare and normalize SPDX and SPDX-like license expressions using a boolean logic expression engine. See https://spdx.org/spdx-specification-21-web-version#h.jxpfx0ykyb60 to understand what an expression is. See https://github.com/nexB/license-expression for the code. The underlying boolea engine live at https://github.com/bastikr/boolean.py . Both are co-maintained by @pombredanne
+- **[license-expression](https://github.com/nexB/license-expression/)**: This is a library to parse, analyze, compare and normalize SPDX and SPDX-like license expressions using a boolean logic expression engine. See https://spdx.org/spdx-specification-21-web-version#h.jxpfx0ykyb60 to understand what an expression is. See https://github.com/nexB/license-expression for the code. The underlying boolean engine live at https://github.com/bastikr/boolean.py . Both are co-maintained by @pombredanne
 
-- **ABCD aka AboutCode Data** is a simple set of conventions to define data structures that all the AboutCode tools can understand and use to exchange data. The specification lives in this repository. .ABOUT files and ScanCode tooklit data are example of this approach. Other projects such as https://libraries.io and and [OSS Review Toolkit](https://github.com/heremaps/oss-review-toolkit) are also using these conventions. 
+- **ABCD aka AboutCode Data** is a simple set of conventions to define data structures that all the AboutCode tools can understand and use to exchange data. The specifications live in this repository. .ABOUT files and ScanCode tooklit data are examples of this approach. Other projects such as https://libraries.io  and [OSS Review Toolkit](https://github.com/heremaps/oss-review-toolkit) are also using these conventions. 
 
 - **[DeltaCode](https://github.com/nexB/deltacode)** is a command line
 tool to compare scans and determine if and where there are material
@@ -57,7 +57,7 @@ differences that affect licensing. The lead maintainer is @majurg
 server-side application to collect and track known package vulnerabilities.
 
 
-We also co-started and work closely with a few key other orgs and projects:
+We also co-started and work closely with a few  other key organisations and projects:
 
 - [Package URL](https://github.com/package-url)  which is an emerging
 standard to reference software packages of all types with simple, readable and
@@ -67,5 +67,5 @@ concise URLs.
 document the origin and licensing of packages.
 
 - [ClearlyDefined](https://ClearlyDefined.io) to review and help FOSS projects
-improve their licensing and documentation clarity. This project is incubating
-with https://opensource.org
+improve their licensing and documentation clarity. This project is incubated in
+ https://opensource.org
